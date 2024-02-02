@@ -55,7 +55,7 @@ const Form = () => {
     "
     >
         <CldUploadButton
-        options={{maxFiles: 3}}
+        options={{maxFiles: 1}}
         onUpload={handleUpload}
         uploadPreset="msfe2yea"
         >
