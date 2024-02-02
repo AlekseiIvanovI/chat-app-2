@@ -46,7 +46,8 @@ const Form = () => {
         w-full
     "
     >
-      <HiPhoto size={30} className="text-gray-500"/>
+            <HiPhoto size={30} className="text-gray-500"/>
+
       <form
       onSubmit={handleSubmit(onSubmit)}
       className="
