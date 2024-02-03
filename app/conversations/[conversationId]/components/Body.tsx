@@ -20,7 +20,11 @@ const Body: React.FC<BodyProps> = ({
 
   useEffect(() => {
     axios.post(`/api/conversations/${conversationId}/seen`)
-  }, [conversationId])
+  }, [conversationId]);
+
+  useEffect(() => {
+    
+  }, [])
 
   return (
     <div className="flex-1 overflow-y-auto">
