@@ -59,7 +59,7 @@ export const authOptions: AuthOptions = {
   },
   secret: process.env.NEXTAUTH_SECRET,
 }
-
+// @ts-ignore
 const handler = NextAuth(authOptions);
-
+// @ts-ignore
 export { handler as GET, handler as POST };
