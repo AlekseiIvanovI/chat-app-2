@@ -60,11 +60,10 @@ const authOptions: AuthOptions = {
 };
 
 // Handler function for Next.js API route
-const handler = async (req, res) => {
+export default async function handler(req, res) {
   await NextAuth(req, res, authOptions);
-};
+}
 
-export default handler;
 
 
 
