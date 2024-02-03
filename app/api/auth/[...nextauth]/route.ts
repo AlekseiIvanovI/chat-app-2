@@ -5,7 +5,7 @@ import GithubProvider from "next-auth/providers/github"
 import GoogleProvider from "next-auth/providers/google"
 import { PrismaAdapter } from "@next-auth/prisma-adapter"
 // @ts-ignore
-import getAuthOptions from "./[...nextauth]";
+// import getAuthOptions from "./[...nextauth]";
 
 import prisma from "@/app/libs/prismadb"
 
