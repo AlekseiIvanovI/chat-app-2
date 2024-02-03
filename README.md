@@ -2,6 +2,10 @@
 
 This project is a Real-Time Messenger application built with Next.js 14, React, Tailwind CSS, Prisma, MongoDB, NextAuth, and Pusher. It provides a modern and efficient solution for building real-time messaging applications with a variety of key features.
 
+## Live Demo
+
+You can visit the live version of the website at https://chat-app-2-ewq92egke-aleksei-ivanovs-projects.vercel.app/
+
 ## Key Features
 
 - **Real-time Messaging with Pusher**: Enjoy instant messaging with real-time updates and notifications powered by Pusher.
