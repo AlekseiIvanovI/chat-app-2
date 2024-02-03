@@ -1,6 +1,6 @@
 # Real-Time Messenger
 
-This project is a Real-Time Messenger application built with Next.js 13, React, Tailwind CSS, Prisma, MongoDB, NextAuth, and Pusher. It provides a modern and efficient solution for building real-time messaging applications with a variety of key features.
+This project is a Real-Time Messenger application built with Next.js 14, React, Tailwind CSS, Prisma, MongoDB, NextAuth, and Pusher. It provides a modern and efficient solution for building real-time messaging applications with a variety of key features.
 
 ## Key Features
 
