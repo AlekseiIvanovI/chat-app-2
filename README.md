@@ -1,3 +1,29 @@
+# Real-Time Messenger
+
+A real-time messenger application built with Next.js, React, Tailwind CSS, Prisma, MongoDB, NextAuth, and Pusher.
+
+## Key Features
+
+- Real-time messaging using Pusher for instant message updates.
+- Message notifications and alerts to ensure users don't miss important conversations.
+- Sleek UI design powered by Tailwind CSS.
+- Animations and transition effects from Tailwind CSS for smooth interactions.
+- Full responsiveness for optimal user experience on all devices.
+- Credential authentication with NextAuth for secure access.
+- Integration with Google and GitHub authentication for convenient login options.
+- File and image upload functionality using the Cloudinary CDN.
+- Client-side form validation and handling using react-hook-form.
+- Server error handling with react-toast for informative error messages.
+- Message read receipts to indicate when a message has been read.
+- Online/offline user status display.
+- Support for both group chats and one-on-one messaging.
+- Message attachments and file sharing capabilities.
+- User profile customization and settings.
+- Example implementations for writing POST, GET, and DELETE routes in route handlers (app/api).
+- Fetching data in server-side React components by directly accessing the database.
+- Handling relations between server and child components in a real-time environment.
+- Creating and managing chat rooms and channels.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
