@@ -1,13 +1,14 @@
-import bcrypt from "bcrypt";
-import NextAuth, { AuthOptions } from "next-auth";
-import CredentialsProvider from "next-auth/providers/credentials";
-import GithubProvider from "next-auth/providers/github";
-import GoogleProvider from "next-auth/providers/google";
-import { PrismaAdapter } from "@next-auth/prisma-adapter";
-import prisma from "@/app/libs/prismadb";
+import bcrypt from "bcrypt"
+import { AuthOptions } from "next-auth";
+import prisma from '@/app/libs/prismadb';
+import NextAuth from "next-auth"
+import { PrismaAdapter } from "@next-auth/prisma-adapter"
+import GithubProvider from "next-auth/providers/github"
+import GoogleProvider from "next-auth/providers/google"
+import CredentialsProvider from "next-auth/providers/credentials"
 
-// Define the authentication options
-export const authOptions: AuthOptions = {
+// Define authOptions
+const authOptions: AuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     GithubProvider({
@@ -62,9 +63,8 @@ export const authOptions: AuthOptions = {
 // Initialize NextAuth with the authentication options
 const handler = NextAuth(authOptions);
 
-// Export the handler as default for the API route
+// Export the handler for usage elsewhere
 export default handler;
-
 
 
 
