@@ -7,7 +7,6 @@ import { PrismaAdapter } from "@next-auth/prisma-adapter"
 
 import prisma from "@/app/libs/prismadb"
 
-// @ts-ignore
 export const authOptions: AuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
@@ -59,7 +58,6 @@ export const authOptions: AuthOptions = {
   },
   secret: process.env.NEXTAUTH_SECRET,
 }
-// @ts-ignore
+
 const handler = NextAuth(authOptions);
-// @ts-ignore
 export { handler as GET, handler as POST };
