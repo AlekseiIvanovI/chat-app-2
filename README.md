@@ -5,7 +5,6 @@ This project is a Real-Time Messenger application built with Next.js 14, React, 
 ## Key Features
 
 - **Real-time Messaging with Pusher**: Enjoy instant messaging with real-time updates and notifications powered by Pusher.
-- **Message Notifications and Alerts**: Stay informed with notifications for new messages and alerts.
 - **Sleek UI Design with Tailwind CSS**: Utilize Tailwind CSS for a sleek and customizable user interface design.
 - **Animations and Transition Effects**: Enhance user experience with smooth animations and transition effects.
 - **Full Responsiveness**: Ensure compatibility and optimal display across various devices and screen sizes.
