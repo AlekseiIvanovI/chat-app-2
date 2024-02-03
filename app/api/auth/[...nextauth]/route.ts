@@ -6,10 +6,8 @@ import GoogleProvider from "next-auth/providers/google";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 import prisma from "@/app/libs/prismadb";
 
-
-
-const handler = async (req, res) => {
-  const authOptions: AuthOptions = {
+// Configuration for NextAuth
+export const authOptions: AuthOptions = {
   adapter: PrismaAdapter(prisma),
   providers: [
     GithubProvider({
@@ -59,10 +57,37 @@ const handler = async (req, res) => {
     strategy: "jwt",
   },
   secret: process.env.NEXTAUTH_SECRET,
-}
+};
+
+// Handler function for Next.js API route
+const handler = async (req, res) => {
+  // Call NextAuth with the provided request, response, and options
+  await NextAuth(req, res, authOptions);
 };
 
 export default handler;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
