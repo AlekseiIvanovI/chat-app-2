@@ -52,7 +52,3 @@ This project is a Real-Time Messenger application built with Next.js 14, React, 
 - [NextAuth Documentation](https://next-auth.js.org/getting-started/introduction)
 - [Pusher Documentation](https://pusher.com/docs)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
