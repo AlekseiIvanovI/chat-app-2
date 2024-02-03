@@ -34,7 +34,7 @@ This project is a Real-Time Messenger application built with Next.js 13, React, 
 
 ## Technologies Used
 
-- Next.js 13
+- Next.js 14
 - React
 - Tailwind CSS
 - Prisma
